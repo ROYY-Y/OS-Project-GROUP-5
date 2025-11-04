@@ -1,6 +1,6 @@
 README - QLimit
 ระบบ Chatroom Server แบบที่เพิ่มกลไก “Queue Limit (QLimit)” เพื่อจำกัดจำนวนข้อความในคิวของแต่ละ Client ป้องกันการ overload และเพิ่มความเสถียรของระบบ
-
+(QLimit_Server.cpp)
 ส่วนประกอบหลัก
 1.Data Structures
 - Client
@@ -56,5 +56,6 @@ Requirement
 C++17 หรือใหม่กว่า
 POSIX-compliant OS (Linux/Unix/macOS)
 pthread library
+
 
 
