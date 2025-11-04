@@ -1,6 +1,7 @@
 README - NoLock
 ระบบ Chatroom Server (NoLock Version) เป็นเวอร์ชันพื้นฐานของระบบแชตหลายห้อง ที่ตัดกลไก lock และการป้องกัน thread ออก เพื่อเเสดงให้เห็นถึงหลักการทำงานที่threadหลายตัว เข้าถึงข้อมูลเดียวกันพร้อมกัน
-
+และเกิดปัญหา Race Condition
+(No_lock_Server.cpp)
 ส่วนประกอบหลัก
 1.Data Structures
 -Client
@@ -49,4 +50,5 @@ Requirement
 C++17 หรือใหม่กว่า
 POSIX-compliant OS (Linux/Unix/macOS)
 pthread library
+
 
